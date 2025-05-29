@@ -57,21 +57,3 @@ if __name__ == "__main__":
     bin_vec_df = pd.concat([df,bin_vecs],keys=['Sample_Descr','Bin_Vec'],axis=1)
 
     bin_vec_df.to_csv("bin_vec.csv")
-
-
-
-    
-    # sim_key_word_csv_path = os.path.join(CWD,csv_out_folder,"similar_keywords_compressed_freq.csv")
-    # word_def_csv_path     = os.path.join(CWD,csv_out_folder,"word_def.csv")
-
-
-    # BIN_VEC_MARKER = BinVectorMarker(sim_key_word_csv_path,word_def_csv_path)
-
-
-    # bin_vecs= BIN_VEC_MARKER.gen_bin_vecs(df).apply(lambda x: ','.join(map(str, x)))
-
-
-    # bin_vec_df = pd.concat([df,bin_vecs],keys=['Sample_Descr','Bin_Vec'],axis=1)
-
-    # bin_vec_df.to_csv("bin_vec.csv")
-

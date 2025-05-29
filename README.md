@@ -5,7 +5,7 @@
 This repo is meant only to test the code in the [LithoConverter](https://github.com/abdukhans/LithoConverter) library.
 
 ## How to run the code
-The code needs the ``LITHO_CSVS`` folder and the ``Data`` folder. The ``Data`` folder is not included in this repo so you must create it. 
+This codes needs a ``LithoConverter`` folder in cwd, that contains the litho the converter package. You can either clone from  [LithoConverter](https://github.com/abdukhans/LithoConverter), or just copy paste your local repo folder. If you do decide to clone it make sure to clone the branch you made changes on. The code also needs the ``LITHO_CSVS`` folder and the ``Data`` folder. The ``Data`` folder is not included in this repo so you must create it. 
 
 First step is to create an empty ``Data`` folder, in the same working directory as ``tests.py``.
 
