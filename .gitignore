@@ -1,2 +1,5 @@
 LithoConverter/
 LithoConverter/__pycache__/
+Data/
+CACHED_DF/
+*.csv
